@@ -6,6 +6,7 @@ import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
@@ -13,7 +14,11 @@ import java.util.List;
 
 @Document(collection = "books")
 @Data
-public class Book {
+public class Book  implements Serializable {
+
+    private static final long serialVersionUID = 1l;
+
+
     @Id
     private String id;
 

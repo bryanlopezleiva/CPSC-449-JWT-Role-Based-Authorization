@@ -23,4 +23,7 @@ public interface BookRepository extends MongoRepository<Book, String> {
 
     @Query("{'price': {$gt : ?0, $lt : ?1}}")
     List<Book> getBookByPriceRange(BigDecimal lower, BigDecimal upper);
+
+    /// fetching by ISBN, return a book
+    Optional<Book> findByIsbn(String s);
 }
