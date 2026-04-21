@@ -47,4 +47,6 @@
 
 <img width="1202" height="500" alt="Screenshot 2026-04-17 at 23 33 00" src="https://github.com/user-attachments/assets/904f7fe0-d4b3-40aa-b028-1b8a72b8a397" />
 
+## Deleting a book that does not exist as an Admin
 
+<img width="1179" height="477" alt="Screenshot 2026-04-20 at 17 07 26" src="https://github.com/user-attachments/assets/26e634d8-6f9f-4cd1-8f68-7363b107ee29" />
